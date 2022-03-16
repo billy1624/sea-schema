@@ -106,6 +106,8 @@ pub enum Type {
 
     /// JSON data checked for validity and with additional functions
     Json,
+    /// JSON data stored in a decomposed binary format that can be subscripted and used in indexes
+    JsonBinary,
 
     /// Variable-length multidimensional array
     Array,
