@@ -188,6 +188,7 @@ impl Type {
             "uuid" => Type::Uuid,
             "xml" => Type::Xml,
             "json" => Type::Json,
+            "jsonb" => Type::JsonBinary,
             "array" => Type::Array,
             // "" => Type::Composite,
             "int4range" => Type::Int4Range,
